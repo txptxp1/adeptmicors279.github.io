@@ -1,507 +1,322 @@
-<!DOCTYPE html>
-<html lang="chs">
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 7.1.1">
-  <link rel="apple-touch-icon" sizes="180x180" href="/homepage/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/homepage/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/homepage/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/homepage/images/logo.svg" color="#222">
-
-<link rel="stylesheet" href="/homepage/css/main.css">
-
-
-<link rel="stylesheet" href="/homepage/lib/font-awesome/css/all.min.css">
-
-<script id="hexo-configurations">
-    var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"adeptmicors279-github-io.pages.dev","root":"/homepage/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":{"gitalk":{"order":-1}},"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
-  </script>
-
-  <meta name="description" content="Adeptmicors279的blog，Python初学者记录生活游戏以及分享技术...">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Adeptmicors279的blog - 长夜破浪伴晓梦 梦晓伴浪破夜长</title><meta name="author" content="Adeptmicors279"><meta name="copyright" content="Adeptmicors279"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Adeptmicors279的blog">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Adeptmicors279的blog">
-<meta property="og:url" content="https://adeptmicors279-github-io.pages.dev/homepage/index.html">
+<meta property="og:url" content="https://adeptmicors279-github-io.pages.dev/index.html">
 <meta property="og:site_name" content="Adeptmicors279的blog">
-<meta property="og:description" content="Adeptmicors279的blog，Python初学者记录生活游戏以及分享技术...">
-<meta property="og:locale">
+<meta property="og:description" content="Adeptmicors279的blog">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://adeptmicors279-github-io.pages.dev/img/touxiang.jpg">
 <meta property="article:author" content="Adeptmicors279">
 <meta property="article:tag" content="adept,micors,adeptmicors279,279,blog，博客，Adeptmicors279,">
 <meta name="twitter:card" content="summary">
-
-<link rel="canonical" href="https://adeptmicors279-github-io.pages.dev/homepage/">
-
-
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome : true,
-    isPost : false,
-    lang   : 'chs'
-  };
-</script>
-
-  <title>Adeptmicors279的blog</title>
-  
-
-
-
-
-
-
-  <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
-
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
-
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript>
-
-</head>
-
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
-
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
-    </div>
-  </div>
-
-  <div class="site-meta">
-
-    <a href="/homepage/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">Adeptmicors279的blog</h1>
-      <span class="logo-line-after"><i></i></span>
-    </a>
-  </div>
-
-  <div class="site-nav-right">
-    <div class="toggle popup-trigger">
-    </div>
-  </div>
-</div>
-
-
-
-
-<nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
-        <li class="menu-item menu-item-home">
-
-    <a href="/homepage/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
-
-  </li>
-        <li class="menu-item menu-item-about">
-
-    <a href="/homepage/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
-
-  </li>
-        <li class="menu-item menu-item-tags">
-
-    <a href="/homepage/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
-
-  </li>
-        <li class="menu-item menu-item-archives">
-
-    <a href="/homepage/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
-
-  </li>
-        <li class="menu-item menu-item-commonweal">
-
-    <a href="/homepage/404/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>Commonweal 404</a>
-
-  </li>
-  </ul>
-</nav>
-
-
-
-
-</div>
-    </header>
-
-    
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
-  <div class="reading-progress-bar"></div>
-
-  <a href="https://github.com/txptxp1" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
-
-
-    <main class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          
-
-          <div class="content index posts-expand">
-            
+<meta name="twitter:image" content="https://adeptmicors279-github-io.pages.dev/img/touxiang.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://adeptmicors279-github-io.pages.dev/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Adeptmicors279的blog',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-08-08 00:43:55'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
       
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="chs">
-    <link itemprop="mainEntityOfPage" href="https://adeptmicors279-github-io.pages.dev/homepage/2024/04/14/Python%E5%86%99%E4%B8%80%E4%B8%AA%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/homepage/images/touxiang.jpg">
-      <meta itemprop="name" content="Adeptmicors279">
-      <meta itemprop="description" content="Adeptmicors279的blog，Python初学者记录生活游戏以及分享技术...">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Adeptmicors279的blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/homepage/2024/04/14/Python%E5%86%99%E4%B8%80%E4%B8%AA%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/" class="post-title-link" itemprop="url">Python写一个音乐播放器</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2024-04-14 01:03:17 / Modified: 09:31:35" itemprop="dateCreated datePublished" datetime="2024-04-14T01:03:17+08:00">2024-04-14</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
+        get: key => {
+          const itemStr = localStorage.getItem(key)
       
-          <p>本来想把之前OCR重写UI再端上来的说<br>但是马上就期中了，所以就把之前的音乐播放器拿出来给大家看看吧</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/homepage/2024/04/14/Python%E5%86%99%E4%B8%80%E4%B8%AA%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
       
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="chs">
-    <link itemprop="mainEntityOfPage" href="https://adeptmicors279-github-io.pages.dev/homepage/2024/04/13/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/homepage/images/touxiang.jpg">
-      <meta itemprop="name" content="Adeptmicors279">
-      <meta itemprop="description" content="Adeptmicors279的blog，Python初学者记录生活游戏以及分享技术...">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Adeptmicors279的blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/homepage/2024/04/13/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/" class="post-title-link" itemprop="url">关于此站</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2024-04-13 18:18:30 / Modified: 18:37:07" itemprop="dateCreated datePublished" datetime="2024-04-13T18:18:30+08:00">2024-04-13</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>怎么说呢，其实就是临时起意搞得一个托管网站<br>以后会往上面发发自己写的小项目之类的<br>自己之前从来没在GitHub上发过什么，主要是因为写的东西GitHub上有更优的，发了没什么意义，以后就记录记录生活吧</p>
-<p>本人会python当然也只会python，之前有过想学c搞单片机但是奈何时间不够就放弃了</p>
-<h2 id="让我想想我还能写些什么"><a href="#让我想想我还能写些什么" class="headerlink" title="让我想想我还能写些什么"></a>让我想想我还能写些什么</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">print</span> (<span class="string">&#x27;helloworld&#x27;</span>)</span><br></pre></td></tr></table></figure>
-<p>第一次接触编程是在初中，当时python学一半半途而废了，后来高一寒假学的</p>
-<h2 id="托管网站的一些事儿"><a href="#托管网站的一些事儿" class="headerlink" title="托管网站的一些事儿"></a>托管网站的一些事儿</h2><p>当时搞了半天都搞不懂为什么GitHub的链接正常，但是cloud flare加载的就会只剩下html，后来发现hexo的配置文件链接填错了……</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
-  
-
-
-
-          </div>
-          
-
-<script>
-  window.addEventListener('tabs:register', () => {
-    let { activeClass } = CONFIG.comments;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
       }
-    }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
-    });
-  }
-</script>
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
 
-        </div>
-          
-  
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
 
-  <aside class="sidebar">
-    <div class="sidebar-inner">
-
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
       
-
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          Table of Contents
-        </li>
-        <li class="sidebar-nav-overview">
-          Overview
-        </li>
-      </ul>
-
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
-      </div>
-      <!--/noindex-->
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="Adeptmicors279"
-      src="/homepage/images/touxiang.jpg">
-  <p class="site-author-name" itemprop="name">Adeptmicors279</p>
-  <div class="site-description" itemprop="description">Adeptmicors279的blog，Python初学者记录生活游戏以及分享技术...</div>
-</div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/homepage/archives/">
-        
-          <span class="site-state-item-count">2</span>
-          <span class="site-state-item-name">posts</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-tags">
-            <a href="/homepage/tags/">
-          
-        <span class="site-state-item-count">1</span>
-        <span class="site-state-item-name">tags</span></a>
-      </div>
-  </nav>
-</div>
-  <div class="links-of-author motion-element">
-      <span class="links-of-author-item">
-        <a href="https://github.com/txptxp1" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;txptxp1" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
-      </span>
-      <span class="links-of-author-item">
-        <a href="/homepage/3463557382@qq.com" title="E-Mail → 3463557382@qq.com"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
-      </span>
-      <span class="links-of-author-item">
-        <a href="https://space.bilibili.com/1643643368" title="Bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;1643643368" rel="noopener" target="_blank"><i class="fa-brands fa-bilibili fa-fw"></i>Bilibili</a>
-      </span>
-  </div>
-
-
-
-      </div>
-
-    </div>
-  </aside>
-  <div id="sidebar-dimmer"></div>
-
-
-      </div>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-inner">
-        
-
-        
-
-<div class="copyright">
-  
-  &copy; 
-  <span itemprop="copyrightYear">2024</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Adeptmicors279</span>
-</div>
-<span id="timeDate">载入天数...</span>
-<span id="times">载入时分秒...</span>
-<script>
-    var now = new Date();
-    function createtime() {
-        var grt= new Date("4/13/2024 10:00:00"); //修改为你的网站开始运行的时间
-        now.setTime(now.getTime()+250);
-        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
-        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
-        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
-        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
-        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
-        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
-        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 ";
-        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒.";
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.2.0"><link rel="alternate" href="/atom.xml" title="Adeptmicors279的blog" type="application/atom+xml">
+</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>(()=>{
+  const $loadingBox = document.getElementById('loading-box')
+  const $body = document.body
+  const preloader = {
+    endLoading: () => {
+      $body.style.overflow = ''
+      $loadingBox.classList.add('loaded')
+    },
+    initLoading: () => {
+      $body.style.overflow = 'hidden'
+      $loadingBox.classList.remove('loaded')
     }
-setInterval("createtime()",250);
-</script>
+  }
 
-        
-<div class="busuanzi-count">
-  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-user"></i>
-      </span>
-      <span class="site-uv" title="Total Visitors">
-        <span id="busuanzi_value_site_uv"></span>
-      </span>
-    </span>
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-eye"></i>
-      </span>
-      <span class="site-pv" title="Total Views">
-        <span id="busuanzi_value_site_pv"></span>
-      </span>
-    </span>
-</div>
+  preloader.initLoading()
+  window.addEventListener('load',() => { preloader.endLoading() })
+
+  if (false) {
+    document.addEventListener('pjax:send', () => { preloader.initLoading() })
+    document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+  }
+})()</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/touxiang.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">19</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">13</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/img/background.png')"><nav id="nav"><span id="blog-info"><a href="/" title="Adeptmicors279的blog"><span class="site-name">Adeptmicors279的blog</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Adeptmicors279的blog</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/txptxp1" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:3463557382@qq.cpm" target="_blank" title="Email"><i class="fa-envelope"></i></a><a class="social-icon" href="https://space.bilibili.com/1643643368" target="_blank" title="Bilibili"><i class="fab fa-bilibili" style="color: rgb(0,160,216);"></i></a><a class="social-icon" href="https://adeptmicors279-github-io.pages.dev/homepage/atom.xml" target="_blank" title=""><i class="fas fa-rss"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/posts/f02d2f5a.html" title="推完纸上魔法使有感"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bucket.iczrx.cn/2024/08/01/66aa8699b3870.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="推完纸上魔法使有感"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/f02d2f5a.html" title="推完纸上魔法使有感">推完纸上魔法使有感</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-07-31T18:28:45.000Z" title="发表于 2024-08-01 02:28:45">2024-08-01</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Galgame/">Galgame</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Galgame/ADV/">ADV</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Galgame/ADV/VNG/">VNG</a></span></div><div class="content">为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神为什么说日向彼方是神 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/posts/cf9739a6.html" title="平凡的天才展现才能，真正的天才让人忘记才能————樱之诗全线推完有感"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bucket.iczrx.cn/2024/07/15/669520a17fd53.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="平凡的天才展现才能，真正的天才让人忘记才能————樱之诗全线推完有感"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/cf9739a6.html" title="平凡的天才展现才能，真正的天才让人忘记才能————樱之诗全线推完有感">平凡的天才展现才能，真正的天才让人忘记才能————樱之诗全线推完有感</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-07-15T13:10:41.000Z" title="发表于 2024-07-15 21:10:41">2024-07-15</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Galgame/">Galgame</a></span></div><div class="content">樱之诗简介部分《樱之诗》（原名：《サクラノ詩 －櫻の森の上を舞う－》）是枕社在2015年10月23日推出的一款美少女游戏。
+以『言叶と旋律』（言语和旋律）『幸福に生きよ』（活在幸福中）为主题的『素晴日』的作者SCA-自，将会一边沿袭其主题一边描绘这之前的物语『樱之诗』。 
 
 
 
+将瞬间封存起来的永恒。
+—『幸福前方的物语』
+『它若是虚无的话 虚无本身即是如此』如同一切是我中的众生，故也是众生各自中的一切。
+—『春和修罗』序
+与艺术家的绘画一起留下的诗的最后，如此这般地写道。艺术家去世之后，一如往常的人们，一如往常的幸福光景延伸着。
+轻轻晃动的樱的森林中响起世界的声音
+优美的音色奏响起世界之声
+—『樱之诗』
 
+春天。由于世界著名的艺术家父亲的去世，变得天涯孤独的主人公·草薙直哉，要开始了寄居在友人的夏目圭家的生活。
+在那里迎接他的是在他将要上学的地方担任班主任的夏目蓝，以及从事演员的圭的妹妹夏目雫。
+然后，随着新学期的到来，幼时转校离去的青梅竹马御桜禀再度出现在他的面前。
+随风飞舞的樱花花瓣的彼方，那是，有如曾经约定下的再会——。
+时间将思念重叠在一起，当感情的奔流成形之时，在那里相遇到 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/posts/a17f591b.html" title="2024-6-8随记"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bucket.iczrx.cn/2024/06/08/666348d50ff5e.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="2024-6-8随记"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/a17f591b.html" title="2024-6-8随记">2024-6-8随记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-06-07T17:39:30.000Z" title="发表于 2024-06-08 01:39:30">2024-06-08</time></span></div><div class="content">似了这么多天，也该发发文章了（虽然没人看就是了）
+FTP折腾了一下午FTP搞得我头疼
+先是内网穿透（话说第三方软件价格都好贵）（哦对了实名认证的时候发现自己身份证过期了，我说嘛国徽面怎么死活扫不上去）
+再是光猫有公网IP但是路由器没有，改桥接
+然后就是去破解什么超级管理员密码
+当时想着顺便设置一下IPv6
+结果拨号上网密码转出来明文是***（蚌埠住了，前端把password类型改成text就这样了）
+后来了解到openp2p后打算尝试以此内网映射出去然后搭建FTP
+最近生活私人学校高考考点放5天（端午节就周一放）
+调休调的我心疲力竭
+和他妈调了50天一样
+电子ED自然，没时间也催生了电子ED
+打了一半的游戏放在那儿，回家后想着新开游戏打了一半的交给假期
+如此循环
+现在已经没什么打游戏的动力了
+（你别说上午看了一上午小说，下午折腾FTP还挺消磨时间）
+什么时候才是个头呢？我原以为的高中生活be like:
 
+虽然学习压力大但是有同学互帮互助扛过去
+上课有趣下课也不无聊
 
+然而实际上是：
 
+同学之间互相嘲讽（我不认识的还好，主要是那些我认识的比较久的，从初中开始认识的那些）对骂
+上课死气沉 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/posts/5769b4d0.html" title="Python爬取pixiv图片"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://t.mwm.moe/pc" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Python爬取pixiv图片"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/5769b4d0.html" title="Python爬取pixiv图片">Python爬取pixiv图片</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-05-11T18:10:57.000Z" title="发表于 2024-05-12 02:10:57">2024-05-12</time></span></div><div class="content">带检索功能的爬虫代码如下
+1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950import reimport urllib3import urllibimport requestsimport os.pathif os.path.exists(&#x27;img&#x27;):    passelse:    os.mkdir(&#x27;img&#x27;)urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)url=&#x27;https://www.pixiv.net/&#x27;headers=&#123;&quot;User-Agent&quot;:&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/5 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/posts/f925041e.html" title="2024-5-5随记"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://t.mwm.moe/pc" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="2024-5-5随记"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/f925041e.html" title="2024-5-5随记">2024-5-5随记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-05-05T16:51:29.000Z" title="发表于 2024-05-06 00:51:29">2024-05-06</time></span></div><div class="content">网站崩了这个b代码块的主题一直改不了
 
-      </div>
-    </footer>
-  </div>
+即使设置里改为mac，hexo clean了也没用
+而且
+自从安上了butterfly就一直有烦人的报错
+但是不影响使用
 
-  
-  <script src="/homepage/lib/anime.min.js"></script>
-  <script src="/homepage/lib/velocity/velocity.min.js"></script>
-  <script src="/homepage/lib/velocity/velocity.ui.min.js"></script>
+12ERROR Script load failed: themes\butterfly\scripts\events\init.jsTypeError: require(...) is not a function
 
-<script src="/homepage/js/utils.js"></script>
+12ERROR Script load failed: themes\butterfly\scripts\events\welcome.jsTypeError: require(...) is not a function
 
-<script src="/homepage/js/motion.js"></script>
+解决方法
+Hexo升级之后Butterfly主题不兼容，发生报错：TypeError: require(…) is not a function-腾讯云开发者社区-腾讯云 (tencent.com)
+但是吧，我npm升级了没有用，所以打算手动升级
+结果升完级天真的以为_config.yml文件是一样的
+想都没想直接把旧版的复制进去了
+然后又是报错
+12ERROR TypeError: E ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/posts/74d5df8b.html" title="萌新也能看懂的Galgame入坑教程"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bucket.iczrx.cn/2024/05/03/6633cb2990225.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="萌新也能看懂的Galgame入坑教程"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/74d5df8b.html" title="萌新也能看懂的Galgame入坑教程">萌新也能看懂的Galgame入坑教程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-05-02T17:12:01.000Z" title="发表于 2024-05-03 01:12:01">2024-05-03</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Galgame/">Galgame</a></span></div><div class="content">Galgame入坑指南</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/posts/6793f133.html" title="记一次paddleocr打包问题：FileNotFoundError以及ModuleNotFoundError"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bucket.iczrx.cn/2024/05/03/6633bdefd8268.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="记一次paddleocr打包问题：FileNotFoundError以及ModuleNotFoundError"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/6793f133.html" title="记一次paddleocr打包问题：FileNotFoundError以及ModuleNotFoundError">记一次paddleocr打包问题：FileNotFoundError以及ModuleNotFoundError</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-05-02T16:17:00.000Z" title="发表于 2024-05-03 00:17:00">2024-05-03</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Python/">Python</a></span></div><div class="content">为什么打包paddleocr时会报错在处理报错之前，我们先看看报错内容
+FileNotFoundError: [Errno 2] No such file or directory: &#39;E:\\python\\python3.11(64bit)\\dist\\demo1\\_internal\\paddleocr\\tools/__init__.py&#39;
 
+报错filenofound
+未找到文件，看起来貌似是打包时没有把文件打包全
+处理问题进入你创建的虚拟环境（当然你不创建也没关系）
+输入pyinstall -w -D 你的路径进行不完满打包
+然后打开dist里的_internal目录
+把你的Python解释器里安装的paddleocr模块全部复制过来
+这时候，你就会发现，欸，还是会报错，但是内容变了
+变成了：ModuleNotFoundError: No module named &#39;shapely&#39;
+别慌，按照上述方法，继续把python解释器里site-packages里的模块给复制过来
+123456789101112ModuleNotFoundErr ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/posts/d6a200d.html" title="2024-5-1随记"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://t.mwm.moe/pc" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="2024-5-1随记"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/d6a200d.html" title="2024-5-1随记">2024-5-1随记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-05-01T14:35:48.000Z" title="发表于 2024-05-01 22:35:48">2024-05-01</time></span></div><div class="content">打包问题不知道抽什么风，pyinstaller打包了会报错
+ File &quot;D:\vsexe\OCR重置\dist\OCR翻译器\_internal\paddleocr\ppocr\postprocess\db_postprocess.py&quot;, line 25, in &lt;module&gt;
+比较难蚌，估计是我自己在别的文件里定义了两个class类，pyinstaller打包不进去导致的，待会等我把他一块并入main里看看
+顺便一提，我发现pyinstaller打包的时候会混入一些用不到的模块
+比如：
 
-<script src="/homepage/js/schemes/muse.js"></script>
+我用的tkintertools和tkinter开发的GUI确打包进了pyqt
+我用的PIL截图给我乱打包进了别的模块
 
+等会新建虚拟环境试试
+以及
+打包的文件居然整整三百mb（我源文件就几十kb的样子）
 
-<script src="/homepage/js/next-boot.js"></script>
+等会研究一下怎么解决
+（到时候再发一篇，文章数量不久上来了？）
+Summer pockets怎么说呢
+一开始以为没有人去做sp外传的游戏
+没想到b站上有人做了，而且是三月份开始的
+https://www.bilibili.com/video/BV1TE4213 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/posts/d5e66b04.html" title="杂谈:近况以及五一假期安排"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bucket.iczrx.cn/2024/04/30/6630fea51a67f.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="杂谈:近况以及五一假期安排"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/d5e66b04.html" title="杂谈:近况以及五一假期安排">杂谈:近况以及五一假期安排</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-30T14:10:25.000Z" title="发表于 2024-04-30 22:10:25">2024-04-30</time></span></div><div class="content">网站主题变更NexT–&gt;butterfly昨天，我把网站的主题从NexT换成了butterflyNexT简介大方，功能强但是好多功能都需要自己手动去添加（我是v7的版本）太过于麻烦，而且出了问题还得一步步排查特别是对我这种没有html，js语法基础的人更是头疼所以，为了方便，我换成了butterfly至少集成了一些常用的东西不用一个个去配置了当时我换NexT背景换半天都有问题，最后直接填写的链接才解决设置的圆角还有bug所以索性换了butterfly还美观些
+待会把剩下文章的图片添加上
+可惜了，NexT的确强大，可惜不适合我
+近况谈谈最近的情况
+假日休整五一放假四天第四天还要上晚自习，难受这四天基本呆在家里了还有好多事情做明明放4天布置出了40天的作业很难想象暑假是什么样子
+放完假还得考试…
+算了，趁着假期好好休息下吧
+项目之前python做的OCR已经做好了明天抽个时间发出来
+校园生活最近都没怎么听课一直等着五一马上五一欠的还得还回来
+纪委每次记名字从来不记女生我前面一排女生讲话讲的都要飞起来了我们这一排在地理晚自习睡觉（地理老师讲的太捞5了，听课的意义不大）前面女生讲话，结果 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/posts/78399448.html" title="2024-04-28随记"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://t.mwm.moe/pc" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="2024-04-28随记"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/78399448.html" title="2024-04-28随记">2024-04-28随记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-27T16:17:30.000Z" title="发表于 2024-04-28 00:17:30">2024-04-28</time></span></div><div class="content">有关ocr翻译器在线OCR百度的免费额度用完了用在测试上的当时想能不能优化代码提高效率结果倒欠了百度整整0.08元的巨款嗯没错，OCR欠费了…
+所以我打算部署一个本地OCR
 
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-
-</body>
-</html>
+本地OCRpaddle ocr一开始我的首选是paddle ocr因为没看懂文档再加上网上乱七八糟的教程导致我没部署成功
+dddd_ocr这个ocr语法简洁，成了我的第二选择但是~好像针对验证码的识别不错，但是文本就差强人意了所以没选
+easy ocr一直用不了，不知道抽什么风
+tesseract这玩意给了我希望然后就没有然后了…不知道为什么我的识别精度（只要背景稍微杂乱一点）都会很低用了二值法也不行
+paddle ocr终于~用回了paddle发现真的好用，精度还高就是速度慢了点
+翻译等下计划搞一个词典进去本地翻译省的还要欠腾讯钱
+五一假期铸币学校放4天江苏改革之后假期都是全的别的学校都放全了就我们学校铸币赶进度（一天时间也赶不了多少进度）
+到时候看看renpy怎么用续写sprb的故事（其实就是把官方小说做成日后谈）
+万花镜和o神联动？要真联动4里面也和初音联动了估计官方整活（或者也有可能碰瓷？蹭热度？）类似于 ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/touxiang.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Adeptmicors279</div><div class="author-info__description">Adeptmicors279的blog</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">19</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">13</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/txptxp1"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/txptxp1" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:3463557382@qq.cpm" target="_blank" title="Email"><i class="fa-envelope"></i></a><a class="social-icon" href="https://space.bilibili.com/1643643368" target="_blank" title="Bilibili"><i class="fab fa-bilibili" style="color: rgb(0,160,216);"></i></a><a class="social-icon" href="https://adeptmicors279-github-io.pages.dev/homepage/atom.xml" target="_blank" title=""><i class="fas fa-rss"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">主题迁移至butterfly</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/f02d2f5a.html" title="推完纸上魔法使有感"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bucket.iczrx.cn/2024/08/01/66aa8699b3870.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="推完纸上魔法使有感"/></a><div class="content"><a class="title" href="/posts/f02d2f5a.html" title="推完纸上魔法使有感">推完纸上魔法使有感</a><time datetime="2024-07-31T18:28:45.000Z" title="发表于 2024-08-01 02:28:45">2024-08-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/cf9739a6.html" title="平凡的天才展现才能，真正的天才让人忘记才能————樱之诗全线推完有感"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bucket.iczrx.cn/2024/07/15/669520a17fd53.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="平凡的天才展现才能，真正的天才让人忘记才能————樱之诗全线推完有感"/></a><div class="content"><a class="title" href="/posts/cf9739a6.html" title="平凡的天才展现才能，真正的天才让人忘记才能————樱之诗全线推完有感">平凡的天才展现才能，真正的天才让人忘记才能————樱之诗全线推完有感</a><time datetime="2024-07-15T13:10:41.000Z" title="发表于 2024-07-15 21:10:41">2024-07-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/a17f591b.html" title="2024-6-8随记"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bucket.iczrx.cn/2024/06/08/666348d50ff5e.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="2024-6-8随记"/></a><div class="content"><a class="title" href="/posts/a17f591b.html" title="2024-6-8随记">2024-6-8随记</a><time datetime="2024-06-07T17:39:30.000Z" title="发表于 2024-06-08 01:39:30">2024-06-08</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/5769b4d0.html" title="Python爬取pixiv图片"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://t.mwm.moe/pc" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Python爬取pixiv图片"/></a><div class="content"><a class="title" href="/posts/5769b4d0.html" title="Python爬取pixiv图片">Python爬取pixiv图片</a><time datetime="2024-05-11T18:10:57.000Z" title="发表于 2024-05-12 02:10:57">2024-05-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/f925041e.html" title="2024-5-5随记"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://t.mwm.moe/pc" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="2024-5-5随记"/></a><div class="content"><a class="title" href="/posts/f925041e.html" title="2024-5-5随记">2024-5-5随记</a><time datetime="2024-05-05T16:51:29.000Z" title="发表于 2024-05-06 00:51:29">2024-05-06</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Galgame/"><span class="card-category-list-name">Galgame</span><span class="card-category-list-count">4</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Galgame/ADV/"><span class="card-category-list-name">ADV</span><span class="card-category-list-count">1</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Galgame/ADV/VNG/"><span class="card-category-list-name">VNG</span><span class="card-category-list-count">1</span></a></li></ul></li></ul></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Python/"><span class="card-category-list-name">Python</span><span class="card-category-list-count">3</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/VNG/" style="font-size: 1.3em; color: #99a1ac">VNG</a> <a href="/tags/ADV/" style="font-size: 1.1em; color: #999">ADV</a> <a href="/tags/Python/" style="font-size: 1.17em; color: #999c9f">Python</a> <a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 1.37em; color: #99a4b2">技术</a> <a href="/tags/%E7%94%9F%E6%B4%BB/" style="font-size: 1.43em; color: #99a6b9">生活</a> <a href="/tags/%E7%94%9F%E6%B4%BB%EF%BC%8C%E9%9A%8F%E8%AE%B0/" style="font-size: 1.1em; color: #999">生活，随记</a> <a href="/tags/diary/" style="font-size: 1.5em; color: #99a9bf">diary</a> <a href="/tags/%E6%9D%82%E8%B0%88/" style="font-size: 1.1em; color: #999">杂谈</a> <a href="/tags/%E3%82%A6%E3%82%B0%E3%82%A4%E3%82%B9%E3%82%AB%E3%82%B0%E3%83%A9/" style="font-size: 1.1em; color: #999">ウグイスカグラ</a> <a href="/tags/Galgame/" style="font-size: 1.1em; color: #999">Galgame</a> <a href="/tags/%E9%9A%8F%E8%AE%B0/" style="font-size: 1.5em; color: #99a9bf">随记</a> <a href="/tags/%E7%BA%B8%E4%B8%8A%E9%AD%94%E6%B3%95%E4%BD%BF/" style="font-size: 1.1em; color: #999">纸上魔法使</a> <a href="/tags/%E6%B8%B8%E6%88%8F/" style="font-size: 1.23em; color: #999ea6">游戏</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/08/"><span class="card-archive-list-date">八月 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/07/"><span class="card-archive-list-date">七月 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/06/"><span class="card-archive-list-date">六月 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/05/"><span class="card-archive-list-date">五月 2024</span><span class="card-archive-list-count">5</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/04/"><span class="card-archive-list-date">四月 2024</span><span class="card-archive-list-count">11</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">19</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2024-04-13T02:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">19.8k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-08-07T16:43:55.205Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2024 By Adeptmicors279</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.8/dist/lazyload.iife.min.js"></script><div class="js-pjax"><script>window.typedJSFn = {
+  init: (str) => {
+    window.typed = new Typed('#subtitle', Object.assign({
+      strings: str,
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50,
+    }, null))
+  },
+  run: (subtitleType) => {
+    if (true) {
+      if (typeof Typed === 'function') {
+        subtitleType()
+      } else {
+        getScript('https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.min.js').then(subtitleType)
+      }
+    } else {
+      subtitleType()
+    }
+  }
+}
+</script><script>function subtitleType () {
+  if (true) {
+    typedJSFn.init(["我们的情人，不过是随便借个名字，用幻想吹出的肥皂泡。","把信拿去吧，你可以使假戏真做。我不过是无病呻吟，漫无目的的吐露爱情。现在这些居无定所的鸟儿有地方栖息了，你可以从信中的文字里看出来"])
+  } else {
+    document.getElementById("subtitle").textContent = "我们的情人，不过是随便借个名字，用幻想吹出的肥皂泡。"
+  }
+}
+typedJSFn.run(subtitleType)</script></div><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/canvas-nest.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=4.13.0"></script></div></div></body></html>
