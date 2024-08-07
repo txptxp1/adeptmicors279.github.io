@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://adeptmicors279-github-io.pages.dev/posts/f02d2f5a.html</loc>
+    
+    <lastmod>2024-08-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://adeptmicors279-github-io.pages.dev/posts/cf9739a6.html</loc>
     
     <lastmod>2024-07-18</lastmod>
@@ -272,6 +281,27 @@
   </url>
   
   <url>
+    <loc>https://adeptmicors279-github-io.pages.dev/tags/ADV/</loc>
+    <lastmod>2024-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://adeptmicors279-github-io.pages.dev/tags/%E3%82%A6%E3%82%B0%E3%82%A4%E3%82%B9%E3%82%AB%E3%82%B0%E3%83%A9/</loc>
+    <lastmod>2024-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://adeptmicors279-github-io.pages.dev/tags/%E7%BA%B8%E4%B8%8A%E9%AD%94%E6%B3%95%E4%BD%BF/</loc>
+    <lastmod>2024-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://adeptmicors279-github-io.pages.dev/tags/Galgame/</loc>
     <lastmod>2024-08-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -289,6 +319,20 @@
   
   <url>
     <loc>https://adeptmicors279-github-io.pages.dev/categories/Galgame/</loc>
+    <lastmod>2024-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://adeptmicors279-github-io.pages.dev/categories/Galgame/ADV/</loc>
+    <lastmod>2024-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://adeptmicors279-github-io.pages.dev/categories/Galgame/ADV/VNG/</loc>
     <lastmod>2024-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
