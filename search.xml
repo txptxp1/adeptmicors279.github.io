@@ -36,6 +36,40 @@
       </tags>
   </entry>
   <entry>
+    <title>2024/4/17随记</title>
+    <url>/posts/266aae77.html</url>
+    <content><![CDATA[<p>说是4&#x2F;17的随记<br>其实已经快4&#x2F;18了</p>
+<hr>
+<h1 id="关于OCR翻译器"><a href="#关于OCR翻译器" class="headerlink" title="关于OCR翻译器"></a>关于OCR翻译器</h1><p>这个是我好久之前写的一个项目<br>用的是tk图形库</p>
+<span id="more"></span>
+<p>UI写的不行，所以当时打算用PyQt重写来着<br>再加上翻译API还是网上随便找的一个…</p>
+<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><p>双休再搞吧</p>
+<h1 id="近日概况"><a href="#近日概况" class="headerlink" title="近日概况"></a>近日概况</h1><p>化学我看是废了<br><s>谁敢和我抢化学倒一</s><br>语文这次挺难的，数学难的很难，简单的数值不好算<br>物理给我一种你能写但是你不能写的感受<br>英语没考目前</p>
+<h1 id="blog评论系统变更"><a href="#blog评论系统变更" class="headerlink" title="blog评论系统变更"></a>blog评论系统变更</h1><p>由原来的gitalk到valine再到utterances<br>让我们来看看怎么个事儿</p>
+<h2 id="gitalk"><a href="#gitalk" class="headerlink" title="gitalk"></a>gitalk</h2><p>一开始的选择<br>但是比较难用，遂放弃</p>
+<h2 id="valine"><a href="#valine" class="headerlink" title="valine"></a>valine</h2><p>不得不说这个评论系统UI好看而且还好用<br>但是国际版提交APPID和APPKEY死活出问题发不了评论<br>国内版没备案没法搞遂放弃</p>
+<h2 id="utterances"><a href="#utterances" class="headerlink" title="utterances"></a>utterances</h2><p>就是现在的这个评论系统<br>和gitalk类似，都是用的GitHub的issue<br>但是对权限管理更加细腻<br>所以选用它</p>
+<p>关键是我这个NexT版本才v7，内部没有集成此评论，还得自己加…<br>网上看教程碰了不少壁<br>好在最后成功了</p>
+<h1 id="近期规划"><a href="#近期规划" class="headerlink" title="近期规划"></a>近期规划</h1><h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><p>最近还要开家长会<br>无所谓…摆了</p>
+<h2 id="网站"><a href="#网站" class="headerlink" title="网站"></a>网站</h2><p>等会给网站加个副标题，是我喜欢的一句回文诗:</p>
+<blockquote>
+<p>长夜破浪伴晓梦 梦晓伴浪破夜长</p>
+</blockquote>
+<p>出自春与修罗<br>想到这儿突然想起来买书的时候买到盗版了<br>而且这b商家把序章给我漏印了🤣</p>
+<p>待会重新搞一个about me的网页<br>主页搞一个blog搞一个</p>
+<h2 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h2><p>虽然推完里奈优美百合线很不想推里奈线<br>但是剧情还是得过的<br>找个时间把剧情过了吧</p>
+<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>期中过后五一快来了<br>希望学校能把假放全吧</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>随记</tag>
+        <tag>生活</tag>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2024/4/15随记</title>
     <url>/posts/b1f5bf5e.html</url>
     <content><![CDATA[<h1 id="一天的开始"><a href="#一天的开始" class="headerlink" title="一天的开始"></a>一天的开始</h1><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2019021996&auto=0&height=66"></iframe>
@@ -69,29 +103,18 @@
       </tags>
   </entry>
   <entry>
-    <title>2024/4/17随记</title>
-    <url>/posts/266aae77.html</url>
-    <content><![CDATA[<p>说是4&#x2F;17的随记<br>其实已经快4&#x2F;18了</p>
-<hr>
-<h1 id="关于OCR翻译器"><a href="#关于OCR翻译器" class="headerlink" title="关于OCR翻译器"></a>关于OCR翻译器</h1><p>这个是我好久之前写的一个项目<br>用的是tk图形库</p>
+    <title>2024-4-18随记</title>
+    <url>/posts/a6b84fd9.html</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>考试终于结束了</p>
+<p>BYD英语没考好，当然其他几门也没考好</p>
+<p>地理选择错13题，老师教的不行（不是开脱，上学期教的班全倒数，分班之后也是）</p>
 <span id="more"></span>
-<p>UI写的不行，所以当时打算用PyQt重写来着<br>再加上翻译API还是网上随便找的一个…</p>
-<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><p>双休再搞吧</p>
-<h1 id="近日概况"><a href="#近日概况" class="headerlink" title="近日概况"></a>近日概况</h1><p>化学我看是废了<br><s>谁敢和我抢化学倒一</s><br>语文这次挺难的，数学难的很难，简单的数值不好算<br>物理给我一种你能写但是你不能写的感受<br>英语没考目前</p>
-<h1 id="blog评论系统变更"><a href="#blog评论系统变更" class="headerlink" title="blog评论系统变更"></a>blog评论系统变更</h1><p>由原来的gitalk到valine再到utterances<br>让我们来看看怎么个事儿</p>
-<h2 id="gitalk"><a href="#gitalk" class="headerlink" title="gitalk"></a>gitalk</h2><p>一开始的选择<br>但是比较难用，遂放弃</p>
-<h2 id="valine"><a href="#valine" class="headerlink" title="valine"></a>valine</h2><p>不得不说这个评论系统UI好看而且还好用<br>但是国际版提交APPID和APPKEY死活出问题发不了评论<br>国内版没备案没法搞遂放弃</p>
-<h2 id="utterances"><a href="#utterances" class="headerlink" title="utterances"></a>utterances</h2><p>就是现在的这个评论系统<br>和gitalk类似，都是用的GitHub的issue<br>但是对权限管理更加细腻<br>所以选用它</p>
-<p>关键是我这个NexT版本才v7，内部没有集成此评论，还得自己加…<br>网上看教程碰了不少壁<br>好在最后成功了</p>
-<h1 id="近期规划"><a href="#近期规划" class="headerlink" title="近期规划"></a>近期规划</h1><h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><p>最近还要开家长会<br>无所谓…摆了</p>
-<h2 id="网站"><a href="#网站" class="headerlink" title="网站"></a>网站</h2><p>等会给网站加个副标题，是我喜欢的一句回文诗:</p>
-<blockquote>
-<p>长夜破浪伴晓梦 梦晓伴浪破夜长</p>
-</blockquote>
-<p>出自春与修罗<br>想到这儿突然想起来买书的时候买到盗版了<br>而且这b商家把序章给我漏印了🤣</p>
-<p>待会重新搞一个about me的网页<br>主页搞一个blog搞一个</p>
-<h2 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h2><p>虽然推完里奈优美百合线很不想推里奈线<br>但是剧情还是得过的<br>找个时间把剧情过了吧</p>
-<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>期中过后五一快来了<br>希望学校能把假放全吧</p>
+<hr>
+<h1 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h1><p>终于有时间搞OCR了<br>之前想重写但是一直没来的急<br>现在打算用pyqt重写UI<br>（貌似tkinter-tool发展的也不错？）<br>大概这周能搞</p>
+<h1 id="学校生活"><a href="#学校生活" class="headerlink" title="学校生活"></a>学校生活</h1><p>班上实在太无聊了<br>打音游的，玩gal的全在别人班上<br>有趣的事也在别人班上<br>优秀的教师还在别人班上<br>所以为什么我会分到这个班…<br>不过既然已经分完了那就无所谓了<br>反正，就剩下两年半不到的时间就毕业了</p>
+<h1 id="规划"><a href="#规划" class="headerlink" title="规划"></a>规划</h1><p>暑假打算学一下html，css，js这些<br>前后端什么的<br>到时候看看有没有闲钱搞个服务器<br>单片机目前没时间学而且设备限制学不了</p>
+<hr>
+<p>虽然说无聊但是日子还是得过的<br>马上放五一了，假期准备躺着过</p>
 ]]></content>
       <categories>
         <category>日常</category>
@@ -168,6 +191,50 @@
       </tags>
   </entry>
   <entry>
+    <title>2024-5-5随记</title>
+    <url>/posts/f925041e.html</url>
+    <content><![CDATA[<h1 id="网站崩了"><a href="#网站崩了" class="headerlink" title="网站崩了"></a>网站崩了</h1><p>这个b代码块的主题一直改不了</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/05/6636694227625.jpg" alt="如下"></p>
+<p>即使设置里改为mac，hexo clean了也没用</p>
+<p>而且</p>
+<p>自从安上了butterfly就一直有烦人的报错</p>
+<p>但是不影响使用</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/05/663669b2478c1.png" alt="报错如下"></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR Script load failed: themes\butterfly\scripts\events\init.js</span><br><span class="line">TypeError: require(...) is not a function</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR Script load failed: themes\butterfly\scripts\events\welcome.js</span><br><span class="line">TypeError: require(...) is not a function</span><br></pre></td></tr></table></figure>
+
+<p>解决方法</p>
+<p><a href="https://cloud.tencent.com/developer/article/2388627">Hexo升级之后Butterfly主题不兼容，发生报错：TypeError: require(…) is not a function-腾讯云开发者社区-腾讯云 (tencent.com)</a></p>
+<p>但是吧，我npm升级了没有用，所以打算手动升级</p>
+<p>结果升完级天真的以为_config.yml文件是一样的</p>
+<p>想都没想直接把旧版的复制进去了</p>
+<p>然后又是报错</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR </span><br><span class="line">TypeError: E:\hexo\blog\themes\butterfly\layout\includes\layout.pug:2</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://bucket.iczrx.cn/2024/05/05/66366a555b7b3.png"></p>
+<p>行！</p>
+<p>估计又是什么乱七八糟的问题</p>
+<p>大不了我重新配置一下</p>
+<p>后来我重新配置了一遍，成功解决</p>
+<p>在此期间我直接把报错生成的网页直接推到GitHub上了</p>
+<p>所以网站崩了一会</p>
+<p>然后设置好主题</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span> (<span class="string">&#x27;hello&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>好了</p>
+<p>终于成功了</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>随记</tag>
+        <tag>生活</tag>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2024-6-8随记</title>
     <url>/posts/a17f591b.html</url>
     <content><![CDATA[<p>似了这么多天，也该发发文章了（虽然没人看就是了）</p>
@@ -227,50 +294,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2024-5-5随记</title>
-    <url>/posts/f925041e.html</url>
-    <content><![CDATA[<h1 id="网站崩了"><a href="#网站崩了" class="headerlink" title="网站崩了"></a>网站崩了</h1><p>这个b代码块的主题一直改不了</p>
-<p><img src="https://bucket.iczrx.cn/2024/05/05/6636694227625.jpg" alt="如下"></p>
-<p>即使设置里改为mac，hexo clean了也没用</p>
-<p>而且</p>
-<p>自从安上了butterfly就一直有烦人的报错</p>
-<p>但是不影响使用</p>
-<p><img src="https://bucket.iczrx.cn/2024/05/05/663669b2478c1.png" alt="报错如下"></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR Script load failed: themes\butterfly\scripts\events\init.js</span><br><span class="line">TypeError: require(...) is not a function</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR Script load failed: themes\butterfly\scripts\events\welcome.js</span><br><span class="line">TypeError: require(...) is not a function</span><br></pre></td></tr></table></figure>
-
-<p>解决方法</p>
-<p><a href="https://cloud.tencent.com/developer/article/2388627">Hexo升级之后Butterfly主题不兼容，发生报错：TypeError: require(…) is not a function-腾讯云开发者社区-腾讯云 (tencent.com)</a></p>
-<p>但是吧，我npm升级了没有用，所以打算手动升级</p>
-<p>结果升完级天真的以为_config.yml文件是一样的</p>
-<p>想都没想直接把旧版的复制进去了</p>
-<p>然后又是报错</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR </span><br><span class="line">TypeError: E:\hexo\blog\themes\butterfly\layout\includes\layout.pug:2</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://bucket.iczrx.cn/2024/05/05/66366a555b7b3.png"></p>
-<p>行！</p>
-<p>估计又是什么乱七八糟的问题</p>
-<p>大不了我重新配置一下</p>
-<p>后来我重新配置了一遍，成功解决</p>
-<p>在此期间我直接把报错生成的网页直接推到GitHub上了</p>
-<p>所以网站崩了一会</p>
-<p>然后设置好主题</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span> (<span class="string">&#x27;hello&#x27;</span>)</span><br></pre></td></tr></table></figure>
-
-<p>好了</p>
-<p>终于成功了</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>随记</tag>
-        <tag>生活</tag>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python写一个音乐播放器</title>
     <url>/posts/bcca9bd1.html</url>
     <content><![CDATA[<p>本来想把之前OCR重写UI再端上来的说<br>但是马上就期中了，所以就把之前的音乐播放器拿出来给大家看看吧</p>
@@ -308,13 +331,69 @@
       </tags>
   </entry>
   <entry>
-    <title>关于此站</title>
-    <url>/posts/d27f355a.html</url>
-    <content><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1476470866&auto=1&height=66"></iframe>
+    <title>Python爬取pixiv图片</title>
+    <url>/posts/5769b4d0.html</url>
+    <content><![CDATA[<h1 id="带检索功能的爬虫"><a href="#带检索功能的爬虫" class="headerlink" title="带检索功能的爬虫"></a>带检索功能的爬虫</h1><p>代码如下</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> re</span><br><span class="line"><span class="keyword">import</span> urllib3</span><br><span class="line"><span class="keyword">import</span> urllib</span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> os.path</span><br><span class="line"><span class="keyword">if</span> os.path.exists(<span class="string">&#x27;img&#x27;</span>):</span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    os.mkdir(<span class="string">&#x27;img&#x27;</span>)</span><br><span class="line">urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)</span><br><span class="line">url=<span class="string">&#x27;https://www.pixiv.net/&#x27;</span></span><br><span class="line">headers=&#123;</span><br><span class="line"><span class="string">&quot;User-Agent&quot;</span>:<span class="string">&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0&quot;</span>,</span><br><span class="line"><span class="string">&quot;Cookie&quot;</span>:</span><br><span class="line"><span class="string">&quot;填入你的cookie&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">keywords=<span class="built_in">str</span>(<span class="built_in">input</span>(<span class="string">&#x27;输入关键词进行搜索&#x27;</span>))</span><br><span class="line">keywords=urllib.parse.quote(keywords)</span><br><span class="line">search_url=<span class="string">f&quot;https://www.pixiv.net/ajax/search/artworks/<span class="subst">&#123;keywords&#125;</span>?word=<span class="subst">&#123;keywords&#125;</span>&amp;order=date_d&amp;mode=all&amp;p=1&amp;csw=0&amp;s_mode=s_tag&amp;type=all&amp;lang=zh&quot;</span></span><br><span class="line">resp=requests.get(url=search_url,headers=headers,verify=<span class="literal">False</span>)</span><br><span class="line">resp.close()</span><br><span class="line"><span class="comment">#print (resp.json())</span></span><br><span class="line">result=resp.json()</span><br><span class="line">num=<span class="built_in">int</span>(<span class="built_in">len</span>(result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>]))</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>,num):</span><br><span class="line">    <span class="built_in">id</span>=result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][i][<span class="string">&#x27;id&#x27;</span>]</span><br><span class="line">    title=result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][i][<span class="string">&#x27;title&#x27;</span>]</span><br><span class="line">    pageCount=result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][i][<span class="string">&#x27;pageCount&#x27;</span>]</span><br><span class="line">    createDate=result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][i][<span class="string">&#x27;createDate&#x27;</span>]</span><br><span class="line">    <span class="built_in">print</span> (<span class="string">f&#x27;作品编号:<span class="subst">&#123;i&#125;</span>,作品标题:<span class="subst">&#123;title&#125;</span>,作品id:<span class="subst">&#123;<span class="built_in">id</span>&#125;</span>,作品页数:<span class="subst">&#123;pageCount&#125;</span>,创作时间:<span class="subst">&#123;createDate&#125;</span>&#x27;</span>)</span><br><span class="line">choose=<span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&#x27;请输入需要爬取的图片编号&#x27;</span>))</span><br><span class="line"><span class="built_in">id</span>=result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][choose][<span class="string">&#x27;id&#x27;</span>]</span><br><span class="line">pageCount=result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][choose][<span class="string">&#x27;pageCount&#x27;</span>]</span><br><span class="line">img_url=<span class="string">f&#x27;https://www.pixiv.net/artworks/<span class="subst">&#123;<span class="built_in">id</span>&#125;</span>&#x27;</span></span><br><span class="line">createDate=createDate.replace(<span class="string">&#x27;-&#x27;</span>,<span class="string">&#x27;/&#x27;</span>).replace(<span class="string">&#x27;T&#x27;</span>,<span class="string">&#x27;/&#x27;</span>).replace(<span class="string">&#x27;:&#x27;</span>,<span class="string">&#x27;/&#x27;</span>)</span><br><span class="line">createDate=createDate.split(<span class="string">&#x27;+&#x27;</span>)</span><br><span class="line">createDate=createDate[<span class="number">0</span>]</span><br><span class="line">download_url=<span class="string">&#x27;https://i.pximg.net/img-master/img/&#123;createDate&#125;/&#123;id&#125;_p&#123;pageCount&#125;_square1200.jpg&#x27;</span></span><br><span class="line">headers_down=&#123;</span><br><span class="line"><span class="string">&quot;User-Agent&quot;</span>:<span class="string">&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0&quot;</span>,</span><br><span class="line"><span class="string">&quot;Cookie&quot;</span>:</span><br><span class="line"><span class="string">&quot;填入你的cookie&quot;</span>,</span><br><span class="line"><span class="string">&quot;Referer&quot;</span>:</span><br><span class="line"><span class="string">&quot;https://www.pixiv.net/&quot;</span></span><br><span class="line">&#125;</span><br><span class="line">image=requests.get(url=download_url,headers=headers_down)</span><br><span class="line">image.encoding=<span class="string">&#x27;utf-8&#x27;</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">f&#x27;img/<span class="subst">&#123;<span class="built_in">id</span>&#125;</span>.png&#x27;</span>,<span class="string">&#x27;wb&#x27;</span>)<span class="keyword">as</span> f:</span><br><span class="line">    f.write(image.content)</span><br></pre></td></tr></table></figure>
 
-<p>由于兴趣使然搭建的罢了</p>
-<p>平常偶尔发发东西</p>
+
+
+<p>思路详解</p>
+<p>打开pixiv前端的源码</p>
+<p>会发现如下</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/12/66407937868fb.png" alt="没有想要的图片"></p>
+<p>于是xpath和bs4以及re正则提取界面源码的方法就没法用了</p>
+<p>那怎么办</p>
+<p>我们先随意搜索一个东西</p>
+<p>这里以litter busters举例</p>
+<p>搜索玩打开前端源码</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/12/664079b9b0d6b.png" alt="界面源码"></p>
+<p>还是没有任何我们想要的东西</p>
+<p>打开开发者控制台进行刷新界面抓包看看</p>
+<p>但是在搜索界面一直没有什么发现，只有一些杂乱的数据</p>
+<p>于是我换了个思路，从主页的搜索框搜索，获取完整的抓包数据</p>
+<p>最终，我发现了这个</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/12/66407b20b4b20.png" alt="抓包数据"></p>
+<p>很长的名字</p>
+<p>我翻了好久无意中翻到的</p>
+<p>打开看看</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/12/66407b654541b.png" alt="获取的数据"></p>
+<p>居然是json</p>
+<p>我打开body，往里面翻了翻</p>
+<p>就找到了如图的数据</p>
+<p>没错，正是我想要的</p>
+<p>这就是搜索界面的所有信息</p>
+<p>存在<code>[&#39;body&#39;][&#39;illustMange&#39;][&#39;data&#39;]</code>里</p>
+<p>打开其中一个</p>
+<p><img src="https://bucket.iczrx.cn/2024/05/12/66407c18b6360.png"></p>
+<p>这就是我想要得了</p>
+<p>现在我们记录下我们需要的信息</p>
+<p>然后随记点开一个图片</p>
+<p>进去的时候记得抓包，等加载出图片的时候寻找图片</p>
+<p>找到图片的链接为</p>
+<p><code>https://i.pximg.net/img-master/img/2024/05/11/09/39/28/118621977_p0_master1200.jpg</code></p>
+<p>其中，img后面的应该是之前抓包出来的化画作信息的日期，日期后面是id，p0是这个作品的第几张图片</p>
+<p>现在，我们对其进行修改</p>
+<p>先获取图片的id，日期，页数</p>
+<p>然后用f替换</p>
+<p><code>download——url=&#39;https://i.pximg.net/img-master/img/&#123;createDate&#125;/&#123;id&#125;_p&#123;pageCount&#125;_square1200.jpg&#39;</code></p>
+<p>为什么master1200会变为square1200，这个我也不清楚</p>
+<p>反正我爬的图片链接就是以square1200结尾的</p>
+<p>对了，记得搞好请求头</p>
+<p>“Referer”:”<a href="https://www.pixiv.net/">https://www.pixiv.net/</a>“</p>
+<p>然后就可以愉快的爬图片了</p>
+<p><strong>注：此代码无法批量爬取图片，例如日榜之类，只带有搜索功能，以及，我只做了默认第一页搜索结果的爬取，page懒得搞了</strong></p>
+<h2 id="批量爬取图片"><a href="#批量爬取图片" class="headerlink" title="批量爬取图片"></a>批量爬取图片</h2><p>还没写…</p>
+<p>最近比较忙没时间更新blog</p>
+<p>润了</p>
 ]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>Python</tag>
+      </tags>
   </entry>
   <entry>
     <title>Python自动上传网页至GitHub</title>
@@ -359,6 +438,15 @@
       <tags>
         <tag>技术</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>关于此站</title>
+    <url>/posts/d27f355a.html</url>
+    <content><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1476470866&auto=1&height=66"></iframe>
+
+<p>由于兴趣使然搭建的罢了</p>
+<p>平常偶尔发发东西</p>
+]]></content>
   </entry>
   <entry>
     <title>平凡的天才展现才能，真正的天才让人忘记才能————樱之诗全线推完有感</title>
@@ -592,6 +680,75 @@
       </tags>
   </entry>
   <entry>
+    <title>若、生命于明日落幕</title>
+    <url>/posts/d9c7071d.html</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>可能会有所剧透，剧透处会提醒</p>
+<blockquote>
+<p>我决定于明日死去。因此，我要把今天活到最后。<br>明日死ぬと決めた。だから今日を、最期まで生きようと思う</p>
+</blockquote>
+<span id="more"></span>
+<h1 id="相关介绍"><a href="#相关介绍" class="headerlink" title="相关介绍"></a>相关介绍</h1><p>《若、生命于明日落幕》（日语：あした、人生（いのち）が終わるとしたら）是由同人社团OverFlowers制作发行的一部冒险游戏，于2022年12月31日发行。<br><img src="https://bucket.iczrx.cn/2024/04/20/662299aa5a788.jpg" alt="若、生命于明日落幕.jpg"></p>
+<h1 id="游戏时长"><a href="#游戏时长" class="headerlink" title="游戏时长"></a>游戏时长</h1><p>我这里大概用了40min左右就推完了<br><img src="https://bucket.iczrx.cn/2024/04/20/66229a09a1df0.png" alt="QQ截图20240419005020.png"><br>总的来说还是不错的短篇</p>
+<h1 id="故事概要-（有剧透！谨慎观看）"><a href="#故事概要-（有剧透！谨慎观看）" class="headerlink" title="故事概要 （有剧透！谨慎观看）"></a>故事概要 （有剧透！谨慎观看）</h1><p>白石紬希，女高中生<br>一天天重复的生活，同学的嘲笑，无意义的努力，渺茫的未来，使得她厌倦了生活<br>不论学习还是运动，紬希都处于平均以下。<br>无论梦想还是目标抑或是想做的事，紬希都没有。<br>尽管如此，成年人们仍然告诉她“为了未来而努力是值得的”，于是她开始朝着看不见的『未来』努力奔跑。</p>
+<p>—-直到有一天，车站出了事故，有人踏入了车站站台的黄线</p>
+<blockquote>
+<p>并非想要死去，只是因为活着很痛苦，所以想要消失而已</p>
+</blockquote>
+<p>这让紬希有了寻死的想法，她旷了一天的课，去玩自己想玩的，吃自己喜欢的，到了傍晚最后走向大海….</p>
+<h1 id="结局"><a href="#结局" class="headerlink" title="结局"></a>结局</h1><p>结局当然是没死的</p>
+<blockquote>
+<p>……但是，才这个时间吗？<br>这样的话，还有能做的事吧<br>想要消失，但却找借口不消失，最后选择了留下来的，是谁呢？<br>没有死去的，是何方之人呢。</p>
+</blockquote>
+<p>在走向大海之前，紬希停住了</p>
+<blockquote>
+<p>并非想要死去，只是因为活着很痛苦，所以想要消失而已</p>
+</blockquote>
+<p>紬希并不是想死，只是厌倦着生活中的一切<br>生活中有着令她备受苦难的东西：母亲回家后的关心，蛋包饭，老师真诚的建议…<br>自己被自己的精神折磨，母亲对她的温柔成了自己的负罪感</p>
+<p>这些东西背负在她身上<br>即使她上进，她努力，仍然无济于事，再加上身上背负的担子<br>使她有了不想死但是也不想活的想法</p>
+<p>拒绝上补习班，但是学习却学不过<br>在意成绩却又不想去面对<br>成绩崩坏，心态炸裂，从而对人生失望，对学习厌烦的死循环就出现了<br>总归来说，就是摆烂摆不烂，内卷卷不过<br>而且身上还有各种负担，以及从出生开始就被灌输的要考好学校的观点<br>但是上了重点高中之后又跟不上</p>
+<blockquote>
+<p>因为向上走就意味着“比周围的人更好”</p>
+</blockquote>
+<p>最终导致了</p>
+<blockquote>
+<p>明明不懂得降生于世的含义，不懂活着的理由，却还是要继续前行<br>在这种艰难混沌的世界————<br>人生只有接二连三的痛苦</p>
+</blockquote>
+<p><img src="https://bucket.iczrx.cn/2024/04/20/662320e0d3597.png" alt="C8C00787FF1B1F2465EB28FAC35CF6C6.png"><br>但是在她游玩了一天之后，她发现了，自己只是想寻求一个解脱，一个能给自己喘息的时间<br>其实并不想死，只是不想活着，不想面对<br>所以，才会在生命落幕前，反复的问自己</p>
+<blockquote>
+<p>……但是，才这个时间吗？<br>这样的话，还有能做的事吧</p>
+</blockquote>
+<p>她看到了这个世界的美丽</p>
+<blockquote>
+<p>天涯接海岸，天地一沉潜<br>……为什么，会这么美丽……</p>
+</blockquote>
+<p>最后，紬希释然了，重新回归到了那令她反感厌恶的生活中去了<br>不想活，和想去死。绝不是同一件事，而紬希只是属于前者<br>如果她真的想死的话，早就在车站站台，踏入那条黄色的警戒线了</p>
+<h1 id="摆烂与内卷"><a href="#摆烂与内卷" class="headerlink" title="摆烂与内卷"></a>摆烂与内卷</h1><p>在说摆烂与内卷前先说说自己的经历</p>
+<p>在初二的时候，我曾在开学的一个月内内卷过，但是后来心态发生的转变和我的成绩有很大关系<br>明明和别人一样去死命内卷了成绩却反而下降了<br>自此之后到初三下学期前，我都一直在摆烂<br>当时的情况是这样的，一种极致的摆烂状态：<br>    什么也不思考<br>    什么也不要去管<br>    过好眼前的生活并让自己乐在其中就好了<br>对于当时的我来说，分数，就是依托没用的数字</p>
+<p>但是从初三下学期开始，我突然又变的在意分数了（妈的，鬼知道什么原因😅）</p>
+<p>摆烂摆不下，内卷卷不过<br>直到现在还没成功跳出这个怪圈<br>并不是想内卷，而是不得不去，既有自己心里的原因，也有外在环境的因素</p>
+<p>口口声声说开摆，却又有几时能真正摆下来呢</p>
+<p>所以当时我晚上推游戏的时候想到：<br>    明明她可以摆烂，非得要把自己推到这种痛苦的位置上</p>
+<p>但是想了一下<br>摆烂摆不烂，内卷卷不过<br>我不是也这样吗🤣<br>那好像我也没什么资格说这事了</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>虽然篇幅短小<br>而且叙述平淡<br>但是对上电波的话还是能感受到些什么的<br><img src="https://bucket.iczrx.cn/2024/04/20/662324401b0c8.png" alt="QQ截图20240420101059.png"></p>
+<p>一开始我还以为和Narcissu一样表达作者的生死观来着<br>现在看来好像并不算是<br>至少生死观是没有的<br>更多的是对生活碌碌无为，只能给自己徒增压力的现象的描写吧</p>
+<p>作品取材还是相当真是的，但是对不上电波的可能认为很无聊<br>对于我，则恰好与我的经历稍有些重合之处吧</p>
+<blockquote>
+<p>明明不懂得降生于世的含义，不懂活着的理由，却还是要继续前行</p>
+</blockquote>
+<p>继续前行不是自己能决定的，大部分人还是被逼迫的<br>那又有什么办法呢<br>大多因学业寻死的人<br>大概也和紬希一样<br>反复的、一天天的<br>在艰难混沌的日常中<br>体会着接二连三的痛苦<br>他们也许不是想死<br>只是不想活</p>
+<h1 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h1><p>少一点精神内耗，养好精神<br>这才是最重要的吧</p>
+<h2 id="PS"><a href="#PS" class="headerlink" title="PS"></a>PS</h2><p>一开始我看这个选项什么还没想好，没有选项还以为是剧情锁<br>结果发现是真没有选项…..<br>blog从昨天晚上开始写的，太困就睡觉了<br>文笔有限，写的不行望多包涵</p>
+<h1 id="有关正作"><a href="#有关正作" class="headerlink" title="有关正作"></a>有关正作</h1><p>附上正作链接<br><a href="https://www.dlsite.com/home/work/=/product_id/RJ01012429.html">https://www.dlsite.com/home/work/=/product_id/RJ01012429.html</a><br>同人社团OverFlowers的作品<br>有能力的可以补个票<br>如果新用户拿券可以白嫖好多游戏</p>
+]]></content>
+      <categories>
+        <category>Galgame</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>VNG</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>萌新也能看懂的Galgame入坑教程</title>
     <url>/posts/74d5df8b.html</url>
     <content><![CDATA[<h1 id="什么是Galgame？"><a href="#什么是Galgame？" class="headerlink" title="什么是Galgame？"></a>什么是Galgame？</h1><h2 id="Galgame定义"><a href="#Galgame定义" class="headerlink" title="Galgame定义"></a>Galgame定义</h2><p>要想入坑，其实并不需要完全了解Galgame的定义</p>
@@ -816,75 +973,6 @@
       </tags>
   </entry>
   <entry>
-    <title>若、生命于明日落幕</title>
-    <url>/posts/d9c7071d.html</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>可能会有所剧透，剧透处会提醒</p>
-<blockquote>
-<p>我决定于明日死去。因此，我要把今天活到最后。<br>明日死ぬと決めた。だから今日を、最期まで生きようと思う</p>
-</blockquote>
-<span id="more"></span>
-<h1 id="相关介绍"><a href="#相关介绍" class="headerlink" title="相关介绍"></a>相关介绍</h1><p>《若、生命于明日落幕》（日语：あした、人生（いのち）が終わるとしたら）是由同人社团OverFlowers制作发行的一部冒险游戏，于2022年12月31日发行。<br><img src="https://bucket.iczrx.cn/2024/04/20/662299aa5a788.jpg" alt="若、生命于明日落幕.jpg"></p>
-<h1 id="游戏时长"><a href="#游戏时长" class="headerlink" title="游戏时长"></a>游戏时长</h1><p>我这里大概用了40min左右就推完了<br><img src="https://bucket.iczrx.cn/2024/04/20/66229a09a1df0.png" alt="QQ截图20240419005020.png"><br>总的来说还是不错的短篇</p>
-<h1 id="故事概要-（有剧透！谨慎观看）"><a href="#故事概要-（有剧透！谨慎观看）" class="headerlink" title="故事概要 （有剧透！谨慎观看）"></a>故事概要 （有剧透！谨慎观看）</h1><p>白石紬希，女高中生<br>一天天重复的生活，同学的嘲笑，无意义的努力，渺茫的未来，使得她厌倦了生活<br>不论学习还是运动，紬希都处于平均以下。<br>无论梦想还是目标抑或是想做的事，紬希都没有。<br>尽管如此，成年人们仍然告诉她“为了未来而努力是值得的”，于是她开始朝着看不见的『未来』努力奔跑。</p>
-<p>—-直到有一天，车站出了事故，有人踏入了车站站台的黄线</p>
-<blockquote>
-<p>并非想要死去，只是因为活着很痛苦，所以想要消失而已</p>
-</blockquote>
-<p>这让紬希有了寻死的想法，她旷了一天的课，去玩自己想玩的，吃自己喜欢的，到了傍晚最后走向大海….</p>
-<h1 id="结局"><a href="#结局" class="headerlink" title="结局"></a>结局</h1><p>结局当然是没死的</p>
-<blockquote>
-<p>……但是，才这个时间吗？<br>这样的话，还有能做的事吧<br>想要消失，但却找借口不消失，最后选择了留下来的，是谁呢？<br>没有死去的，是何方之人呢。</p>
-</blockquote>
-<p>在走向大海之前，紬希停住了</p>
-<blockquote>
-<p>并非想要死去，只是因为活着很痛苦，所以想要消失而已</p>
-</blockquote>
-<p>紬希并不是想死，只是厌倦着生活中的一切<br>生活中有着令她备受苦难的东西：母亲回家后的关心，蛋包饭，老师真诚的建议…<br>自己被自己的精神折磨，母亲对她的温柔成了自己的负罪感</p>
-<p>这些东西背负在她身上<br>即使她上进，她努力，仍然无济于事，再加上身上背负的担子<br>使她有了不想死但是也不想活的想法</p>
-<p>拒绝上补习班，但是学习却学不过<br>在意成绩却又不想去面对<br>成绩崩坏，心态炸裂，从而对人生失望，对学习厌烦的死循环就出现了<br>总归来说，就是摆烂摆不烂，内卷卷不过<br>而且身上还有各种负担，以及从出生开始就被灌输的要考好学校的观点<br>但是上了重点高中之后又跟不上</p>
-<blockquote>
-<p>因为向上走就意味着“比周围的人更好”</p>
-</blockquote>
-<p>最终导致了</p>
-<blockquote>
-<p>明明不懂得降生于世的含义，不懂活着的理由，却还是要继续前行<br>在这种艰难混沌的世界————<br>人生只有接二连三的痛苦</p>
-</blockquote>
-<p><img src="https://bucket.iczrx.cn/2024/04/20/662320e0d3597.png" alt="C8C00787FF1B1F2465EB28FAC35CF6C6.png"><br>但是在她游玩了一天之后，她发现了，自己只是想寻求一个解脱，一个能给自己喘息的时间<br>其实并不想死，只是不想活着，不想面对<br>所以，才会在生命落幕前，反复的问自己</p>
-<blockquote>
-<p>……但是，才这个时间吗？<br>这样的话，还有能做的事吧</p>
-</blockquote>
-<p>她看到了这个世界的美丽</p>
-<blockquote>
-<p>天涯接海岸，天地一沉潜<br>……为什么，会这么美丽……</p>
-</blockquote>
-<p>最后，紬希释然了，重新回归到了那令她反感厌恶的生活中去了<br>不想活，和想去死。绝不是同一件事，而紬希只是属于前者<br>如果她真的想死的话，早就在车站站台，踏入那条黄色的警戒线了</p>
-<h1 id="摆烂与内卷"><a href="#摆烂与内卷" class="headerlink" title="摆烂与内卷"></a>摆烂与内卷</h1><p>在说摆烂与内卷前先说说自己的经历</p>
-<p>在初二的时候，我曾在开学的一个月内内卷过，但是后来心态发生的转变和我的成绩有很大关系<br>明明和别人一样去死命内卷了成绩却反而下降了<br>自此之后到初三下学期前，我都一直在摆烂<br>当时的情况是这样的，一种极致的摆烂状态：<br>    什么也不思考<br>    什么也不要去管<br>    过好眼前的生活并让自己乐在其中就好了<br>对于当时的我来说，分数，就是依托没用的数字</p>
-<p>但是从初三下学期开始，我突然又变的在意分数了（妈的，鬼知道什么原因😅）</p>
-<p>摆烂摆不下，内卷卷不过<br>直到现在还没成功跳出这个怪圈<br>并不是想内卷，而是不得不去，既有自己心里的原因，也有外在环境的因素</p>
-<p>口口声声说开摆，却又有几时能真正摆下来呢</p>
-<p>所以当时我晚上推游戏的时候想到：<br>    明明她可以摆烂，非得要把自己推到这种痛苦的位置上</p>
-<p>但是想了一下<br>摆烂摆不烂，内卷卷不过<br>我不是也这样吗🤣<br>那好像我也没什么资格说这事了</p>
-<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>虽然篇幅短小<br>而且叙述平淡<br>但是对上电波的话还是能感受到些什么的<br><img src="https://bucket.iczrx.cn/2024/04/20/662324401b0c8.png" alt="QQ截图20240420101059.png"></p>
-<p>一开始我还以为和Narcissu一样表达作者的生死观来着<br>现在看来好像并不算是<br>至少生死观是没有的<br>更多的是对生活碌碌无为，只能给自己徒增压力的现象的描写吧</p>
-<p>作品取材还是相当真是的，但是对不上电波的可能认为很无聊<br>对于我，则恰好与我的经历稍有些重合之处吧</p>
-<blockquote>
-<p>明明不懂得降生于世的含义，不懂活着的理由，却还是要继续前行</p>
-</blockquote>
-<p>继续前行不是自己能决定的，大部分人还是被逼迫的<br>那又有什么办法呢<br>大多因学业寻死的人<br>大概也和紬希一样<br>反复的、一天天的<br>在艰难混沌的日常中<br>体会着接二连三的痛苦<br>他们也许不是想死<br>只是不想活</p>
-<h1 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h1><p>少一点精神内耗，养好精神<br>这才是最重要的吧</p>
-<h2 id="PS"><a href="#PS" class="headerlink" title="PS"></a>PS</h2><p>一开始我看这个选项什么还没想好，没有选项还以为是剧情锁<br>结果发现是真没有选项…..<br>blog从昨天晚上开始写的，太困就睡觉了<br>文笔有限，写的不行望多包涵</p>
-<h1 id="有关正作"><a href="#有关正作" class="headerlink" title="有关正作"></a>有关正作</h1><p>附上正作链接<br><a href="https://www.dlsite.com/home/work/=/product_id/RJ01012429.html">https://www.dlsite.com/home/work/=/product_id/RJ01012429.html</a><br>同人社团OverFlowers的作品<br>有能力的可以补个票<br>如果新用户拿券可以白嫖好多游戏</p>
-]]></content>
-      <categories>
-        <category>Galgame</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>VNG</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>记一次paddleocr打包问题：FileNotFoundError以及ModuleNotFoundError</title>
     <url>/posts/6793f133.html</url>
     <content><![CDATA[<h1 id="为什么打包paddleocr时会报错"><a href="#为什么打包paddleocr时会报错" class="headerlink" title="为什么打包paddleocr时会报错"></a>为什么打包paddleocr时会报错</h1><p>在处理报错之前，我们先看看报错内容</p>
@@ -917,94 +1005,6 @@
 <p>所以导致我打包之后的软件体积也巨大</p>
 <p>解决方案要么去掉，要么给个选项运行的时候直接从服务器下载paddleocr文件然后本地部署</p>
 <h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>参考文章<a href="https://blog.csdn.net/m0_46875088/article/details/122096159">paddleocr 打包问题_paddleocr打包太难了-CSDN博客</a></p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2024-4-18随记</title>
-    <url>/posts/a6b84fd9.html</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>考试终于结束了</p>
-<p>BYD英语没考好，当然其他几门也没考好</p>
-<p>地理选择错13题，老师教的不行（不是开脱，上学期教的班全倒数，分班之后也是）</p>
-<span id="more"></span>
-<hr>
-<h1 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h1><p>终于有时间搞OCR了<br>之前想重写但是一直没来的急<br>现在打算用pyqt重写UI<br>（貌似tkinter-tool发展的也不错？）<br>大概这周能搞</p>
-<h1 id="学校生活"><a href="#学校生活" class="headerlink" title="学校生活"></a>学校生活</h1><p>班上实在太无聊了<br>打音游的，玩gal的全在别人班上<br>有趣的事也在别人班上<br>优秀的教师还在别人班上<br>所以为什么我会分到这个班…<br>不过既然已经分完了那就无所谓了<br>反正，就剩下两年半不到的时间就毕业了</p>
-<h1 id="规划"><a href="#规划" class="headerlink" title="规划"></a>规划</h1><p>暑假打算学一下html，css，js这些<br>前后端什么的<br>到时候看看有没有闲钱搞个服务器<br>单片机目前没时间学而且设备限制学不了</p>
-<hr>
-<p>虽然说无聊但是日子还是得过的<br>马上放五一了，假期准备躺着过</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>随记</tag>
-        <tag>生活</tag>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python爬取pixiv图片</title>
-    <url>/posts/5769b4d0.html</url>
-    <content><![CDATA[<h1 id="带检索功能的爬虫"><a href="#带检索功能的爬虫" class="headerlink" title="带检索功能的爬虫"></a>带检索功能的爬虫</h1><p>代码如下</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> re</span><br><span class="line"><span class="keyword">import</span> urllib3</span><br><span class="line"><span class="keyword">import</span> urllib</span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> os.path</span><br><span class="line"><span class="keyword">if</span> os.path.exists(<span class="string">&#x27;img&#x27;</span>):</span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    os.mkdir(<span class="string">&#x27;img&#x27;</span>)</span><br><span class="line">urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)</span><br><span class="line">url=<span class="string">&#x27;https://www.pixiv.net/&#x27;</span></span><br><span class="line">headers=&#123;</span><br><span class="line"><span class="string">&quot;User-Agent&quot;</span>:<span class="string">&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0&quot;</span>,</span><br><span class="line"><span class="string">&quot;Cookie&quot;</span>:</span><br><span class="line"><span class="string">&quot;填入你的cookie&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">keywords=<span class="built_in">str</span>(<span class="built_in">input</span>(<span class="string">&#x27;输入关键词进行搜索&#x27;</span>))</span><br><span class="line">keywords=urllib.parse.quote(keywords)</span><br><span class="line">search_url=<span class="string">f&quot;https://www.pixiv.net/ajax/search/artworks/<span class="subst">&#123;keywords&#125;</span>?word=<span class="subst">&#123;keywords&#125;</span>&amp;order=date_d&amp;mode=all&amp;p=1&amp;csw=0&amp;s_mode=s_tag&amp;type=all&amp;lang=zh&quot;</span></span><br><span class="line">resp=requests.get(url=search_url,headers=headers,verify=<span class="literal">False</span>)</span><br><span class="line">resp.close()</span><br><span class="line"><span class="comment">#print (resp.json())</span></span><br><span class="line">result=resp.json()</span><br><span class="line">num=<span class="built_in">int</span>(<span class="built_in">len</span>(result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>]))</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>,num):</span><br><span class="line">    <span class="built_in">id</span>=result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][i][<span class="string">&#x27;id&#x27;</span>]</span><br><span class="line">    title=result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][i][<span class="string">&#x27;title&#x27;</span>]</span><br><span class="line">    pageCount=result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][i][<span class="string">&#x27;pageCount&#x27;</span>]</span><br><span class="line">    createDate=result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][i][<span class="string">&#x27;createDate&#x27;</span>]</span><br><span class="line">    <span class="built_in">print</span> (<span class="string">f&#x27;作品编号:<span class="subst">&#123;i&#125;</span>,作品标题:<span class="subst">&#123;title&#125;</span>,作品id:<span class="subst">&#123;<span class="built_in">id</span>&#125;</span>,作品页数:<span class="subst">&#123;pageCount&#125;</span>,创作时间:<span class="subst">&#123;createDate&#125;</span>&#x27;</span>)</span><br><span class="line">choose=<span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&#x27;请输入需要爬取的图片编号&#x27;</span>))</span><br><span class="line"><span class="built_in">id</span>=result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][choose][<span class="string">&#x27;id&#x27;</span>]</span><br><span class="line">pageCount=result[<span class="string">&#x27;body&#x27;</span>][<span class="string">&#x27;illustManga&#x27;</span>][<span class="string">&#x27;data&#x27;</span>][choose][<span class="string">&#x27;pageCount&#x27;</span>]</span><br><span class="line">img_url=<span class="string">f&#x27;https://www.pixiv.net/artworks/<span class="subst">&#123;<span class="built_in">id</span>&#125;</span>&#x27;</span></span><br><span class="line">createDate=createDate.replace(<span class="string">&#x27;-&#x27;</span>,<span class="string">&#x27;/&#x27;</span>).replace(<span class="string">&#x27;T&#x27;</span>,<span class="string">&#x27;/&#x27;</span>).replace(<span class="string">&#x27;:&#x27;</span>,<span class="string">&#x27;/&#x27;</span>)</span><br><span class="line">createDate=createDate.split(<span class="string">&#x27;+&#x27;</span>)</span><br><span class="line">createDate=createDate[<span class="number">0</span>]</span><br><span class="line">download_url=<span class="string">&#x27;https://i.pximg.net/img-master/img/&#123;createDate&#125;/&#123;id&#125;_p&#123;pageCount&#125;_square1200.jpg&#x27;</span></span><br><span class="line">headers_down=&#123;</span><br><span class="line"><span class="string">&quot;User-Agent&quot;</span>:<span class="string">&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0&quot;</span>,</span><br><span class="line"><span class="string">&quot;Cookie&quot;</span>:</span><br><span class="line"><span class="string">&quot;填入你的cookie&quot;</span>,</span><br><span class="line"><span class="string">&quot;Referer&quot;</span>:</span><br><span class="line"><span class="string">&quot;https://www.pixiv.net/&quot;</span></span><br><span class="line">&#125;</span><br><span class="line">image=requests.get(url=download_url,headers=headers_down)</span><br><span class="line">image.encoding=<span class="string">&#x27;utf-8&#x27;</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">f&#x27;img/<span class="subst">&#123;<span class="built_in">id</span>&#125;</span>.png&#x27;</span>,<span class="string">&#x27;wb&#x27;</span>)<span class="keyword">as</span> f:</span><br><span class="line">    f.write(image.content)</span><br></pre></td></tr></table></figure>
-
-
-
-<p>思路详解</p>
-<p>打开pixiv前端的源码</p>
-<p>会发现如下</p>
-<p><img src="https://bucket.iczrx.cn/2024/05/12/66407937868fb.png" alt="没有想要的图片"></p>
-<p>于是xpath和bs4以及re正则提取界面源码的方法就没法用了</p>
-<p>那怎么办</p>
-<p>我们先随意搜索一个东西</p>
-<p>这里以litter busters举例</p>
-<p>搜索玩打开前端源码</p>
-<p><img src="https://bucket.iczrx.cn/2024/05/12/664079b9b0d6b.png" alt="界面源码"></p>
-<p>还是没有任何我们想要的东西</p>
-<p>打开开发者控制台进行刷新界面抓包看看</p>
-<p>但是在搜索界面一直没有什么发现，只有一些杂乱的数据</p>
-<p>于是我换了个思路，从主页的搜索框搜索，获取完整的抓包数据</p>
-<p>最终，我发现了这个</p>
-<p><img src="https://bucket.iczrx.cn/2024/05/12/66407b20b4b20.png" alt="抓包数据"></p>
-<p>很长的名字</p>
-<p>我翻了好久无意中翻到的</p>
-<p>打开看看</p>
-<p><img src="https://bucket.iczrx.cn/2024/05/12/66407b654541b.png" alt="获取的数据"></p>
-<p>居然是json</p>
-<p>我打开body，往里面翻了翻</p>
-<p>就找到了如图的数据</p>
-<p>没错，正是我想要的</p>
-<p>这就是搜索界面的所有信息</p>
-<p>存在<code>[&#39;body&#39;][&#39;illustMange&#39;][&#39;data&#39;]</code>里</p>
-<p>打开其中一个</p>
-<p><img src="https://bucket.iczrx.cn/2024/05/12/66407c18b6360.png"></p>
-<p>这就是我想要得了</p>
-<p>现在我们记录下我们需要的信息</p>
-<p>然后随记点开一个图片</p>
-<p>进去的时候记得抓包，等加载出图片的时候寻找图片</p>
-<p>找到图片的链接为</p>
-<p><code>https://i.pximg.net/img-master/img/2024/05/11/09/39/28/118621977_p0_master1200.jpg</code></p>
-<p>其中，img后面的应该是之前抓包出来的化画作信息的日期，日期后面是id，p0是这个作品的第几张图片</p>
-<p>现在，我们对其进行修改</p>
-<p>先获取图片的id，日期，页数</p>
-<p>然后用f替换</p>
-<p><code>download——url=&#39;https://i.pximg.net/img-master/img/&#123;createDate&#125;/&#123;id&#125;_p&#123;pageCount&#125;_square1200.jpg&#39;</code></p>
-<p>为什么master1200会变为square1200，这个我也不清楚</p>
-<p>反正我爬的图片链接就是以square1200结尾的</p>
-<p>对了，记得搞好请求头</p>
-<p>“Referer”:”<a href="https://www.pixiv.net/">https://www.pixiv.net/</a>“</p>
-<p>然后就可以愉快的爬图片了</p>
-<p><strong>注：此代码无法批量爬取图片，例如日榜之类，只带有搜索功能，以及，我只做了默认第一页搜索结果的爬取，page懒得搞了</strong></p>
-<h2 id="批量爬取图片"><a href="#批量爬取图片" class="headerlink" title="批量爬取图片"></a>批量爬取图片</h2><p>还没写…</p>
-<p>最近比较忙没时间更新blog</p>
-<p>润了</p>
 ]]></content>
       <categories>
         <category>Python</category>
